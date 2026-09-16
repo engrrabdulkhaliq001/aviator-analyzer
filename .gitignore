@@ -1,0 +1,24 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+**/storage-state/
+**/*cookies*
+**/*credentials*
+
+# Runtime/dependency/generated data
+**/node_modules/
+logs/
+**/*.log
+diagnostics/
+**/diagnostics/
+backups/
+collector/test-results/
+collector/playwright-report/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

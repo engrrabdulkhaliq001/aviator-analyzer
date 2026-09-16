@@ -1,0 +1,59 @@
+{
+  "diagnosticVersion": "m1.0.0",
+  "startedAt": "2026-09-15T09:45:40.160Z",
+  "completedAt": "2026-09-15T09:45:44.812Z",
+  "target": {
+    "url": "https://bet939.co/home/embedded?dl=6rz403",
+    "title": ""
+  },
+  "navigation": {
+    "ok": true,
+    "url": "https://bet939.co/home/embedded?dl=6rz403",
+    "title": ""
+  },
+  "frameCount": 2,
+  "frames": [
+    {
+      "url": "https://bet939.co/?[redacted]",
+      "name": null
+    },
+    {
+      "url": "about:blank",
+      "name": null
+    }
+  ],
+  "candidateValues": [],
+  "candidateCount": 0,
+  "evidence": {
+    "visibleTextCharacters": 1197,
+    "visibleTextSample": "Download now\nLogin\nRegister\n7-777\n\n[BET939.com] Official Website Collection ~ Necessary! If you have any questions, please consult 7×24 Online Service Official Telegram Channel：@bet939co\n\n[BET939.com] Official Website Collection ~ Necessary! If you have any questions, please consult 7×24 Online Service Official Telegram Channel：@bet939co\n\n🎁VIP MEMBERSHIP PRIVILEGES🎁\n\n \n\nVIP upgrade bonus ₨7,723,025\n\n \n\nweekly salary of ₨1,000,000\n\n \n\nthe highest monthly salary is ₨5,000,000\n\n🎁VIP MEMBERSHIP PRIVILEGES🎁\n\n \n\nVIP upgrade bonus ₨7,723,025\n\n \n\nweekly salary of ₨1,000,000\n\n \n\nthe highest monthly salary is ₨5,000,000\n\n🎁Invite friends, earn ₨500000 per day is not a dream🎁 ✅ INVITE 1 PERSON AND EARN ₨500\n\n🎁Invite friends, earn ₨500000 per day is not a dream🎁 ✅ INVITE 1 PERSON AND EARN ₨500\n\nHot\n\nSlot\n\nMini Games\n\nFishing\n\nLive\n\nCards\n\nSports\n\nDemo\n\nRecent\n\nFavorites\n\nHot\n\nAll\nFortune Garuda 500\nPiggy Bank\nFortune Gems 3\nCrazy777\nAviator\nMoney Coming\nDragon Link-Golden Century\nDragon Link-Happy&Prosperous\nWild Bounty Showdown\nFortune Gems 2\nWild Bounty Showdown\nAnubis Wrath\nMoney Coming Expand Bets\nAviator\nFortune Gems\n71 more game(s)\nExpand\nHome\nPromo\nLogin\n7-777\nRegister\nProfile",
+    "consoleErrorsOrWarnings": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "type": "warning",
+        "text": "Unrecognized feature: 'web-share'."
+      },
+      {
+        "type": "warning",
+        "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      }
+    ],
+    "pageErrors": [
+      "Object"
+    ],
+    "failedRequests": []
+  },
+  "conclusion": "Zero multiplier candidates were found in the captured visible DOM text; do not guess or proceed to ML.",
+  "safety": {
+    "automaticBetting": false,
+    "credentialsEntered": false,
+    "antiBotBypass": false
+  }
+}

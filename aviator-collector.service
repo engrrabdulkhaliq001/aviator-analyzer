@@ -1,0 +1,20 @@
+[Unit]
+Description=Aviator Analyzer M2 collector
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/aviator-analyzer/collector
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node /opt/aviator-analyzer/collector/src/collector.js
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/opt/aviator-analyzer/diagnostics /opt/aviator-analyzer/logs
+
+[Install]
+WantedBy=multi-user.target
