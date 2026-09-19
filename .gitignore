@@ -9,14 +9,20 @@
 **/*credentials*
 
 # Runtime/dependency/generated data
+models/
+data/
+venv/
 **/node_modules/
 logs/
 **/*.log
 diagnostics/
 **/diagnostics/
 backups/
+**/__pycache__/
+.pytest_cache/
 collector/test-results/
 collector/playwright-report/
+deploy-bundle.tar.gz
 
 # OS/editor
 .DS_Store

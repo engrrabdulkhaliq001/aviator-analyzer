@@ -1,0 +1,18 @@
+[Unit]
+Description=Aviator M6 FastAPI Prediction Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/aviator-m6
+EnvironmentFile=/opt/aviator-m6/.env
+ExecStart=/opt/aviator-m6/venv/bin/uvicorn app.fastapi_backend:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
